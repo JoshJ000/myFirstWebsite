@@ -1,0 +1,174 @@
+#nature {
+    background-image: url(clipart/naturebig.jpeg);
+    background-repeat: no-repeat;
+}
+
+#outside {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#indicator {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    border-style: groove;
+    border-width: 15px;
+    border-color: rgb(0, 64, 0);
+    background-color: lightgreen;
+    color: green;
+}
+
+body {
+    color: whitesmoke;
+    font-family: fantasy;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#parentDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#main {
+    padding: 30px;
+    height: 125vh;
+}
+
+#textDiv {
+    padding: 10px;
+    display: flex;
+    flex-direction: column
+}
+
+#title {
+    width: 100vh;
+    text-align: center;
+}
+
+#inside_title {
+    font-size: 35px;
+    text-decoration: underline;
+    color:#dedede;
+    font-weight: bold;
+}
+
+#exit_image {
+    border-style:double;
+}
+
+#exit_image:hover {
+    opacity: 65%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+#media_desc {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.sidedesc {
+    font-size: 25px;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    width: 220px;
+    background-color: #5c3d26;
+    border-color: white;
+    border-style: groove;
+    border-width: 10px;
+}
+
+#categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#emptyspace {
+    color: black;
+}
+
+a {
+    color: white;
+}
+
+.gallery_row {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.images {
+    opacity: 0;
+}
+
+.img_family {
+    text-align: center;
+    color: black;
+}
+
+.images:hover {
+    opacity: 100;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: yellow;
+    border-width: 5px;
+}
+
+.img_family:hover {
+    color: white;
+}
+
+#portal:hover {
+    opacity: 75%;
+    border-style: solid;
+    border-radius: 300px;
+    border-color: rgb(0, 4, 255);
+    border-width: 5px;
+    height: 205px;
+}
+
+#entrance:hover {
+    opacity:85%;
+    height: 375px;
+    width: 525px;
+}
+
+.social_logo:hover{
+    opacity:75%;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
